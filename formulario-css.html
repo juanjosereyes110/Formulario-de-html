@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>formulario personal</h1>
+      <p>Por favor llene este formulario</p>
+    </header>
+    <main>
+      <form action="https://www.informacionpersonal.com" method="post">
+        <fieldset>
+          <legend>informacion personal</legend>
+          <label for="nombre">nombre</label>
+
+          <input type="text" placeholder="jose ramon" />
+
+          <label for="color">seleccionar color</label>
+          <input type="color" name="color" id="color" value="" />
+          <select name="color" id="color">
+            <option value="color">red</option>
+            <option value="color">blue</option>
+            <option value="color">orange</option>
+          </select>
+          <label for="fecha de nacimiento">fecha de nacimiento</label>
+          <input type="date" />
+        </fieldset>
+
+        <fieldset>
+          <legend>otras cosas</legend>
+          <label for="email">correo personal</label>
+          <input id="" type="email" />
+          <label for="telefono">telefono</label>
+          <input type="tel" />
+        </fieldset>
+
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
